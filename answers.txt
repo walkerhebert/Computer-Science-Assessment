@@ -1,0 +1,22 @@
+tinyArray:
+insert 39μs
+append 148.4μs
+
+smallArray: 
+insert 45.4 μs
+append 94 μs
+
+mediumArray: 
+insert 166.3 μs
+append 127.3 μs
+
+largeArray: 
+insert 7.88 ms
+append 484.3 μs
+
+extraLargeArray: 
+insert 934.0181 ms
+append 2.985 ms
+
+For the small arrays the insert runs faster. When we run the medium and larger arrays the append runs faster. The reason is because insert is 0(1) and append is o(n). The smaller arrays run fast in o(1) because it isn't much for it to loop over, but the large arrays take longer because it is more information.
+
